@@ -96,12 +96,16 @@ body {
 .article-btn1{
     color: white;
     background-color: red;
+    justify-content: center;
+    align-items: center;
 
 
 }
 .article-btn2{
     color: red;
     background-color: white;
+    justify-content: center;
+    align-items: center;
 
 }
 .blog-title{
@@ -109,8 +113,40 @@ body {
     justify-content: center;
     font-size: 47px;
     margin-top: 91px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     font-weight: 900;
     color: black;
     opacity: 1;
+}
+.article {
+    text-align: center;
+    max-width: 280px;
+    background-color: white;
+}
+.article-title {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 30px auto;
+    color: #6A6A6A;
+}
+.article-text {
+    color: #6A6A6A;
+    margin-bottom: 30px;
+}
+
+.blog-btn{
+    padding: 15px 25px;
+    border: 2px solid white;
+    color: white;
+    background-color: red;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 50px;
+
+}
+.blog-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
