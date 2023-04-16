@@ -233,3 +233,29 @@ body {
 .servis-article{
     background-color: #28272C ;
 }
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 47px;
+    margin-top: 91px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+    opacity: 1;
+}
+.contact::before{
+    content: "";
+    display: block;
+    height: 3px;
+    background: red;
+    flex-grow: 1;
+}
+.contact::after{
+    content: "";
+    display: block;
+    height: 3px;
+    background: red;
+    flex-grow: 1;
+}
